@@ -1,11 +1,14 @@
 print('Geben Sie das Kürzel Ihres Studiengang ein und bestätigen Sie mit [Enter]:')
 major = input().lower()
 
+print('Geben Sie ihr Alter ein und bestätigen die Eingabe mit [Enter]:')
+age = int(input().lower())
+
 if major == 'gs':
-    print('Sie studieren Geodata Science!')
+    print(f'Sie sind {age} Jahre alt und studieren Geodata Science!')
     print('Willkommen an der Studienfakultät MUC.DAI')
 elif major == 'dc':
-    print('Sie studieren Data Science & Scientific Computing!')
+    print(f'Sie sind {age} Jahre alt und studieren Data Science & Scientific Computing!')
     print('Willkommen an der Fakultät für Informatik und Mathematik')
 else:
     print(f'\"{major}\" ist mir unbekannt. Sind Sie hier richtig?')
