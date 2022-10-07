@@ -1,0 +1,50 @@
+# jupyter-book build
+_build/
+
+#builds, log/preferences files
+*.out
+*.preferences.xml
+
+# IDEs
+.idea/
+*.iml
+.settings/
+.metadata/
+.classpath
+.project
+
+# Python (byte-compiled, optimized, DLL files etc.)
+__pycache__/
+*.py[cod]
+*$py.class
+**/venv/
+
+# Jupyter Notebooks
+**/.ipynb_checkpoints
+
+# Otter-grader build
+student/
+autograder/
+
+# LaTeX
+*.zip
+*.out
+*.aux
+*.lot
+*.log
+*.lof
+*.loa
+*.dvi
+*.blg
+*.tps
+*.tcp
+*.toc
+*.brf
+*.synctex.gz
+*.nav
+*.snm
+*.idx
+
+# Operating system files
+**/.DS_Store
+**/.directory
