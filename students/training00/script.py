@@ -2,7 +2,7 @@ print('Geben Sie das Kürzel Ihres Studiengang ein und bestätigen Sie mit [Ente
 major = input().lower()
 
 print('Geben Sie ihr Alter ein und bestätigen die Eingabe mit [Enter]:')
-age = int(input().lower())
+age = int(input())
 
 if major == 'gs':
     print(f'Sie sind {age} Jahre alt und studieren Geodata Science!')
